@@ -1,0 +1,30 @@
+.blockItem {
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 16px;
+  display: flex;
+  cursor: pointer;
+  &:hover {
+    color: #1890ff;
+    background-color: #e6f7ff;
+
+.shortcutTool {
+  opacity: 1;
+}
+  }
+
+.shortcutTool {
+  opacity: 0;
+}
+}
+
+.blockList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blockItemSelected {
+  color: #1890ff;
+  background-color: #e6f7ff;
+}
